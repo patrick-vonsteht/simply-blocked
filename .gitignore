@@ -1,0 +1,5 @@
+.idea
+chrome-extension-simply-block.iml
+node_modules
+extension.pem
+extension.crx

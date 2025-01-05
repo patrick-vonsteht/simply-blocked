@@ -1,0 +1,15 @@
+{
+  "name": "chrome-extension-simply-block-e2etest",
+  "version": "1.0.0",
+  "description": "End-to-end tests for Chrome extension Simply Block!",
+  "main": "index.js",
+  "scripts": {
+    "run": "jest ."
+  },
+  "author": "Patrick von Steht",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^23.11.1"
+  }
+}

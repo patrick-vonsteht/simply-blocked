@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Simply Block! Website Blocker",
+  "version": "1.0.0",
+  "description": "Simply block websites that you don't want to visit anymore",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "background": {
+    "service_worker": "worker.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "webNavigation"
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYrNqovShtruM76879tqLlShjHsj5l4nx3DvTHBr6t204q0aCeMjjoGD+PACTym3NAUkv9v67CRpVgw1M99N9ZtN85UnlJA1KiOXETvfhzyllWWIsRyyeoFwN8wKluxPJc7CqmfmmUkAX9VidDewUI99RvDcM3B+63G+TGTf5n5hviShX+MG1MM5lrR/wR2xWDymuynS8O7v+wyR6zbP7rv2nKQHuxmqxMtlFxyxTLqgX4iRB0Z4IwBC2POfp8lSJzawrYLmLQl2+XcPWPWJU24gOMFoAECs3muqwrDBRefYGiLjiQo4JzUq7L+Rjwzb77TfXEAuKBGhNCBfz/4MxwIDAQAB"
+}
